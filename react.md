@@ -7,20 +7,21 @@
 
 
 - React.js 提供 React.js 核心功能代码，如：虚拟 dom，组件
-    - React.createElement(type,props,children);
+- React.createElement(type,props,children);
 - ReactDOM 提供了与浏览器交互的 DOM 功能，如：dom 渲染
-    - ReactDOM.render(Vnode, container[, callback])
-        - element：要渲染的内容
-        - container：要渲染的内容存放容器
-        - callback：渲染后的回调函数 
-``` html
+- ReactDOM.render(Vnode, container[, callback])
+- element：要渲染的内容
+- container：要渲染的内容存放容器
+- callback：渲染后的回调函数
+
+```html
     <body>
         <div id="root"></div>
     </body>
 ```
 
 示例：
-``` jsx
+```jsx
     import React from "react";
     import ReactDOM from "react-dom";
 
