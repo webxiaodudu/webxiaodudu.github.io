@@ -1,4 +1,3 @@
-# react的学习总结
 
 ## React 是什么？
 一个用于构建用户界面的 JavaScript 库
