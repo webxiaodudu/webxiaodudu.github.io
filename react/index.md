@@ -1,4 +1,4 @@
-[<<返回博客首页](/react/index)
+[<<返回博客首页](/index)
 
 * [react是什么?](/react/md/react)
 * [JSX语法](/react/md/jsx)

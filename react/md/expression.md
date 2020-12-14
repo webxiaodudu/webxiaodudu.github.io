@@ -1,6 +1,6 @@
-[###<<返回react列表页](/react/md/react)
+[<<返回react列表页](/react/index)
 
-[###<<返回首页](/react/index)
+[<<返回首页](/index)
 
 
 ### 插值表达式
