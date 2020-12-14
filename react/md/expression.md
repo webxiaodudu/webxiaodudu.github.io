@@ -51,7 +51,9 @@ ReactDOM.render(
 
 3. 不支持对象的直接输出
 
-4. class和style, jsx中的属性class要用className,style接收一个样式对象
+
+4. jsx中属性class和style, jsx中的属性class要用className,style接收一个样式对象
+
 className:
 
 ```jsx
