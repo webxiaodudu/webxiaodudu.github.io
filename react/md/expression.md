@@ -8,8 +8,8 @@
 
 
 
->> 字符串、数字：原样输出
-```jsx
+* 字符串、数字：原样输出
+``` jsx
 ReactDOM.render(
   <h1>{'这是纯文本'}</h1>,
   document.getElementById('root')
