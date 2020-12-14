@@ -1,3 +1,3 @@
-* [react是什么?](http://webxiaoudu.github.io/md/react)
-* [JSX语法](http://webxiaoudu.github.io/md/jsx)
-* [插值表达式](http://webxiaoudu.github.io/md/expression)
+* [react是什么?](/react/md/react)
+* [JSX语法](/react/md/jsx)
+* [插值表达式](/react/md/expression)
