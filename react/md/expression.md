@@ -92,8 +92,39 @@ ReactDOM.render(
     <div style="width: 100px; height: 100px; background: blue;"></div>
 ```
 
+5. 条件渲染
 
-5. Fragment组件
+```jsx
+import { Component } from "react";
+
+class App extends Component {
+  state = {
+    flag:false
+  }
+  render(){
+    const { flag } = this.state
+     
+    return <div>
+        { flag ? <h1>aaa</h1> : <h1>bbb</h1> }
+      </div>
+    
+  }
+} 
+
+export default App;
+
+```
+
+输出：
+
+```html
+
+<div id="root"><div><h1>bbb</h1></div></div>
+
+```
+
+
+6. Fragment组件
 
 Fragment 文档碎片，作为包含容器存在，并不会渲染到真实DOM中
 
