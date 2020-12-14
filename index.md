@@ -2,4 +2,4 @@
 对于前端学习的一些总结。
 
 
-### [react学习总结](https://webxiaodudu.github.io/react)
+### [react学习总结](https://webxiaodudu.github.io/reactList)
