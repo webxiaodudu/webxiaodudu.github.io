@@ -93,3 +93,33 @@ ReactDOM.render(
 ```
 
 
+5. Fragment组件
+
+Fragment 文档碎片，作为包含容器存在，并不会渲染到真实DOM中
+
+```jsx
+
+import { Fragment } from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <Fragment>
+    <div>1</div>
+    <div>2</div>
+  </Fragment>,
+  document.getElementById('root')
+);
+
+
+```
+
+输出:
+
+```html
+
+<div id="root">
+    <div>1</div>
+    <div>2</div>
+</div>
+
+```
