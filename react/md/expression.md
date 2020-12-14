@@ -20,11 +20,12 @@ ReactDOM.render(
 
 输出：
 
-<p>
+```html
 这是纯文本
-</p>
+```
 
 * 数组去掉逗号号，直接输出
+
 ```jsx
 const arr=[<li>React</li>,<li>Vue</li>,<li>Typescript</li>]
 
@@ -36,7 +37,16 @@ ReactDOM.render(
 ```
 
 输出：
-<ul><li>React</li><li>Vue</li><li>Typescript</li></ul>
+
+```html
+
+<ul>
+    <li>React</li>
+    <li>Vue</li>
+    <li>Typescript</li>
+</ul>
+
+```
 
 
 * 不支持对象的直接输出
